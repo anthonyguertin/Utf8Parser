@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Utf8Parser</Title>
+    <ApplicationIcon>file-management_Utf8Parser_Icon128px.png</ApplicationIcon>
+    <Description>Allows for simple UTF8 Config File reference for key value pair.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="file-management_Utf8Parser_Icon128px.png" />
+  </ItemGroup>
+
+</Project>

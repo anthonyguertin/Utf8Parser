@@ -1,0 +1,10 @@
+﻿key1=this is a test key for unit testing which should have multiple lines wherever that utf8 file newline(s) are there should be a word wrap this may be the next line or it may not. This is a line break before the 3rd line would've automatically been created because of the length of the previous line.
+key2=1234567889
+
+key3=the previous key has a blank line between it and this key.
+key4=    this key has 4 white spaces before the beginning of entry of the key
+key5=thiskeyhasspecialcharacters*&^%$#@!*)
+
+
+
+key6="this key has quotations" and a 3 line gap between it and previous key.
