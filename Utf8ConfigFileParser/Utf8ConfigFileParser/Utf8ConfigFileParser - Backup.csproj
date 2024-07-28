@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>Allows for developer to easily reference config file from source code.</Description>
+    <Copyright>GNU3</Copyright>
+    <PackageIcon>file-management_Utf8Parser_Icon128px.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/anthonyguertin/Utf8Parser</PackageProjectUrl>
+    <Company></Company>
+    <RepositoryUrl>https://github.com/anthonyguertin/Utf8Parser</RepositoryUrl>
+    <PackageTags>config;configuration;utf8;utf8-config</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Utf8ConfigurationFilerParser</Title>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Icons\file-management_Utf8Parser_Icon128px.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

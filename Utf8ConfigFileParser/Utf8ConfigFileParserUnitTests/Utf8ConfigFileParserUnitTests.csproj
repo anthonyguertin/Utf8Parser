@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Utf8Parser\Utf8Parser.csproj" />
+    <ProjectReference Include="..\Utf8ConfigFileParser\Utf8ConfigFileParser.csproj" />
   </ItemGroup>
 
   <ItemGroup>

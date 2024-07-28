@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utf8ConfigFileParser", "Utf8ConfigFileParser\Utf8ConfigFileParser.csproj", "{8F26EBE0-476C-4B2E-8EEA-510AA87C2388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utf8ConfigFileParserUnitTests", "Utf8ConfigFileParserUnitTests\Utf8ConfigFileParserUnitTests.csproj", "{67A563F7-B858-4FC1-AC04-8C96CAF62BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F26EBE0-476C-4B2E-8EEA-510AA87C2388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F26EBE0-476C-4B2E-8EEA-510AA87C2388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F26EBE0-476C-4B2E-8EEA-510AA87C2388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F26EBE0-476C-4B2E-8EEA-510AA87C2388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A563F7-B858-4FC1-AC04-8C96CAF62BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A563F7-B858-4FC1-AC04-8C96CAF62BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A563F7-B858-4FC1-AC04-8C96CAF62BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A563F7-B858-4FC1-AC04-8C96CAF62BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDEE573-AD92-45DA-AE58-2527DBE9A119}
+	EndGlobalSection
+EndGlobal
