@@ -5,6 +5,10 @@ key3=the previous key has a blank line between it and this key.
 key4=    this key has 4 white spaces before the beginning of entry of the key
 key5=thiskeyhasspecialcharacters*&^%$#@!*)
 
-
+#key7=this isn't actually a key value pair because of the comment character at the beginning.
 
 key6="this key has quotations" and a 3 line gap between it and previous key.
+key6="this123
+
+#key7=a comment case.
+#key8=a second comment case.

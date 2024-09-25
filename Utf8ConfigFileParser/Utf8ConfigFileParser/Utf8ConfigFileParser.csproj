@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <Description>Allows for developer to easily reference config file from source code.</Description>
     <Copyright>GNU3</Copyright>
-    <PackageIcon>file-management_Utf8Parser_Icon128px.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageProjectUrl>https://github.com/anthonyguertin/Utf8Parser</PackageProjectUrl>
     <Company></Company>
     <RepositoryUrl>https://github.com/anthonyguertin/Utf8Parser</RepositoryUrl>
@@ -17,16 +17,16 @@
     <Authors>Anthony Guertin,BigONotation</Authors>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <AssemblyVersion>1.0.2.2</AssemblyVersion>
+    <FileVersion>1.0.2.2</FileVersion>
+    <Version>1.1.2.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Icons\file-management_Utf8Parser_Icon128px.png">
+    <None Update="icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="License.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

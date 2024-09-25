@@ -25,14 +25,14 @@ namespace Utf8ConfigFileParserUnitTests
             var actual_key5 = config["key5"];
             var actual_key6 = config["key6"];
 
-
             Assert.AreEqual(expected_key1, actual_key1);
             Assert.AreEqual(expected_key2, actual_key2);
             Assert.AreEqual(expected_key3, actual_key3);
             Assert.AreEqual(expected_key4, actual_key4);
             Assert.AreEqual(expected_key5, actual_key5);
             Assert.AreEqual(expected_key6, actual_key6);
-
+            Assert.IsFalse(config.ContainsKey("#key7"));
+            Assert.IsFalse(config.ContainsKey("#key8"));
         }
     }
 }
